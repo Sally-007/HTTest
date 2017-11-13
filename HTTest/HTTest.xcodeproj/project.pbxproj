@@ -13,6 +13,7 @@
 		A88B1F481FB3FA8E003BDEC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A88B1F471FB3FA8E003BDEC3 /* Assets.xcassets */; };
 		A88B1F4B1FB3FA8E003BDEC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A88B1F491FB3FA8E003BDEC3 /* LaunchScreen.storyboard */; };
 		A88B1F4E1FB3FA8E003BDEC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A88B1F4D1FB3FA8E003BDEC3 /* main.m */; };
+		A89A3CDE1FB96CB000E08E98 /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = A89A3CDD1FB96CB000E08E98 /* Manager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A88B1F4A1FB3FA8E003BDEC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A88B1F4C1FB3FA8E003BDEC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A88B1F4D1FB3FA8E003BDEC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A89A3CDC1FB96CB000E08E98 /* Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		A89A3CDD1FB96CB000E08E98 /* Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,7 @@
 				A88B1F3F1FB3FA8E003BDEC3 /* AppDelegate.m */,
 				A88B1F411FB3FA8E003BDEC3 /* ViewController.h */,
 				A88B1F421FB3FA8E003BDEC3 /* ViewController.m */,
+				A89A3CDB1FB96CB000E08E98 /* HTTestPod */,
 				A88B1F441FB3FA8E003BDEC3 /* Main.storyboard */,
 				A88B1F471FB3FA8E003BDEC3 /* Assets.xcassets */,
 				A88B1F491FB3FA8E003BDEC3 /* LaunchScreen.storyboard */,
@@ -69,6 +73,16 @@
 				A88B1F4D1FB3FA8E003BDEC3 /* main.m */,
 			);
 			path = HTTest;
+			sourceTree = "<group>";
+		};
+		A89A3CDB1FB96CB000E08E98 /* HTTestPod */ = {
+			isa = PBXGroup;
+			children = (
+				A89A3CDC1FB96CB000E08E98 /* Manager.h */,
+				A89A3CDD1FB96CB000E08E98 /* Manager.m */,
+			);
+			name = HTTestPod;
+			path = ../../HTTestPod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +159,7 @@
 				A88B1F431FB3FA8E003BDEC3 /* ViewController.m in Sources */,
 				A88B1F4E1FB3FA8E003BDEC3 /* main.m in Sources */,
 				A88B1F401FB3FA8E003BDEC3 /* AppDelegate.m in Sources */,
+				A89A3CDE1FB96CB000E08E98 /* Manager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
